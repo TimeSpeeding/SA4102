@@ -1,0 +1,7 @@
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\obj\Debug\Day_2_Quiz.csprojAssemblyReference.cache
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\obj\Debug\Day_2_Quiz.csproj.CoreCompileInputs.cache
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\bin\Debug\Day_2_Quiz.exe.config
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\bin\Debug\Day_2_Quiz.exe
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\bin\Debug\Day_2_Quiz.pdb
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\obj\Debug\Day_2_Quiz.exe
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Quiz\Day_2_Quiz\Day_2_Quiz\obj\Debug\Day_2_Quiz.pdb
