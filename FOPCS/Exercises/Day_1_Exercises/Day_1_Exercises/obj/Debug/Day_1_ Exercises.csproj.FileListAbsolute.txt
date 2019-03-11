@@ -1,0 +1,7 @@
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\bin\Debug\Day_1_ Exercises.exe.config
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\bin\Debug\Day_1_ Exercises.exe
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\bin\Debug\Day_1_ Exercises.pdb
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\obj\Debug\Day_1_ Exercises.csproj.CoreCompileInputs.cache
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\obj\Debug\Day_1_ Exercises.exe
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\obj\Debug\Day_1_ Exercises.pdb
+C:\Users\TimeSpeeding\Google Drive\FOPCS\Exercises\Day_1_ Exercises\Day_1_ Exercises\obj\Debug\Day_1_ Exercises.csprojAssemblyReference.cache
