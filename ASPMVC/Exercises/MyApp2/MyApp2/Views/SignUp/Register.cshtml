@@ -1,0 +1,48 @@
+﻿@model MyApp2.Models.SignUpModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<div align="center">
+
+    <h2>Register</h2>
+
+    @using (Html.BeginForm("AfterRegister", "SignUp", FormMethod.Post))
+    {
+        <table border="0" style="width:50%">
+            <tr>
+                <td>@Html.LabelFor(x => x.Username):</td>
+                <td>@Html.TextBoxFor(x => x.Username)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.Password):</td>
+                <td>@Html.PasswordFor(x => x.Password)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.ConfirmPassword):</td>
+                <td>@Html.PasswordFor(x => x.ConfirmPassword)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(x => x.Gender):</td>
+                <td>
+                    @Html.RadioButtonFor(x => x.Gender, "M", new { id = "Male" }) Male
+                    &nbsp;&nbsp;
+                    @Html.RadioButtonFor(x => x.Gender, "F", new { id = "Female" }) Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    @Html.CheckBoxFor(x => x.AcTerms) Accept Terms & Conditions
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register" />
+                </td>
+            </tr>
+        </table>
+    }
+
+</div>

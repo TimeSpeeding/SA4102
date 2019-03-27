@@ -1,0 +1,22 @@
+﻿@using MyApp2.Models;
+
+@{
+    ViewBag.Title = "Success";
+    SignUpModel su = (SignUpModel)ViewData["su"];
+}
+
+
+<h1>Congratuations!!</h1>
+<h2>You have finished the register!</h2>
+<p>Your username is @su.Username</p>
+<p>Your Password is @su.Password</p>
+@if (su.Gender == 'M')
+{
+    <p>You are Male.</p>
+}
+else
+{
+    <p>You are Female.</p>
+}
+<p>You have accepted our terms and conditions.</p>
+

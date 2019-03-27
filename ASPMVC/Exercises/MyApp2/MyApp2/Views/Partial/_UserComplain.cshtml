@@ -1,0 +1,17 @@
+﻿@model MyApp2.Models.ComplainModel
+@using MyApp2.Models;
+
+
+<table width="400">
+    <tr>
+        <th>Product</th>
+        <th>Complain</th>
+    </tr>
+    @foreach (var item in ViewData["complain"] as IList<ComplainModel>)
+    {
+        <tr>
+            <td>@item.Product</td>
+            <td>@item.Complain</td>
+        </tr>
+    }
+</table>

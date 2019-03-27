@@ -1,0 +1,16 @@
+﻿@using MyApp2.Models;
+
+@{
+    UserModel user = (UserModel)ViewData["user"];
+}
+
+<table>
+    <tr>
+        <th>Name:</th>
+        <td>@user.Name</td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td>@user.Email</td>
+    </tr>
+</table>

@@ -1,0 +1,38 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    string type = (string)ViewData["type"];
+}
+
+@if (type == "transact")
+{
+    <h1>Transactions</h1>
+}
+else if (type == "complain")
+{
+    <h1>Complains</h1>
+}
+else
+{
+    <h1>User Info</h1>
+}
+
+<table border="0">
+    <tr>
+        <td width="300">@Html.Partial("_UserInfo")</td>
+        <td>@Html.Partial("_ProfilePic")</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            @if (type == "transact")
+            {
+                @Html.Partial("_UserTransact");
+            }
+            else if (type == "complain")
+            {
+                @Html.Partial("_UserComplain");
+            }
+        </td>
+    </tr>
+</table>

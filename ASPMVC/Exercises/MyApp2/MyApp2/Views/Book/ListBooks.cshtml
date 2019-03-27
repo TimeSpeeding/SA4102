@@ -1,0 +1,32 @@
+﻿@using MyApp2.Models;
+
+@{
+    ViewBag.Title = "ListBooks";
+}
+
+<h2>Book List</h2>
+
+<table border="1" style="width:50%">
+    <tr>
+        <th>Book Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year Published</th>
+    </tr>
+    @foreach (var book in ViewData["bl"] as IList<Book>)
+    {
+    <tr>
+        <td>@book.BookId</td>
+        @if (book.YearPublished >= 2010)
+        {
+            <td><b>@book.Title</b></td>
+        }
+        else
+        {
+            <td>@book.Title</td>
+        }
+        <td>@book.Author</td>
+        <td>@book.YearPublished</td>
+    </tr>
+    }
+</table>

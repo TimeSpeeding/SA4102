@@ -1,0 +1,10 @@
+﻿@using MyApp1.Models;
+@{
+    ViewBag.Title = "CreateDepartment";
+    Entity entity = (Entity)ViewData["entity"];
+}
+
+<h1>Department Created Successful!!</h1>
+
+<h3>Your Department Name is @entity.Department</h3>
+<h3>Your Course Name is @entity.Course</h3>
